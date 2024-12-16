@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Configuración del documento -->
+    <meta charset="UTF-8"> <!-- Configura el juego de caracteres -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Diseño responsive en dispositivos -->
+    <title>ACME Air</title> <!-- Título de la página -->
+    <link rel="stylesheet" href="/css/styles.css"> <!-- Enlace a la hoja de estilos externa -->
+</head>
+<body>
+    <!-- Encabezado principal -->
+    <div class="header">
+        <!-- Logotipo de la compañía -->
+        <img src="/recourses/logo-removebg-preview.webp" alt="Plane Icon"> 
+    </div>
+
+    <!-- Contenedor principal -->
+    <div class="container">
+        <!-- Perfil del usuario -->
+        <div class="profile">
+            <!-- Imagen de perfil -->
+            <img src="https://cdn.icon-icons.com/icons2/3250/PNG/512/person_circle_filled_icon_202012.png" alt="Profile Picture">
+            <div>
+                <strong>John Doe</strong><br> <!-- Nombre del usuario -->
+                <!-- Enlace para cerrar sesión -->
+                <a href="/pages/iniciarSesion.html" style="color: #007bff; text-decoration: none;">Cerrar Sesi&oacute;n</a>
+            </div>
+        </div>
+
+        <!-- Sección de vuelos -->
+        <div class="flights">
+            <!-- Título de la sección Check In -->
+            <center>
+                <h3 style="font-size: 30px; margin:2%">Check In</h3>
+            </center>
+
+            <!-- Tarjeta de vuelo 1 -->
+            <div class="flight-card">
+                <!-- Imagen del vuelo -->
+                <img src="https://cdn-icons-png.flaticon.com/512/6665/6665429.png" alt="Flight">
+                <div class="flight-info">
+                    <!-- Información del vuelo -->
+                    <p>05:30 - 06:30<br><br>1h 30min<br><br>Bogota - Barraquilla</p>
+                </div>
+                <div class="flight-price">
+                    <!-- Código de vuelo -->
+                    <small style="font-size: 25px;">VAA025</small>
+                </div>
+            </div>
+
+            <!-- Tarjeta de emergencia -->
+            <div class="flight-card">
+                <!-- Formulario de contacto de emergencia -->
+                <form action="/index.html" method="#">
+                    <h3>Contacto En Casa De Emergencia</h3>
+                    <!-- Campo para el nombre completo -->
+                    <input type="text" name="full_name" placeholder="Nombre completo" required>
+                    <!-- Campo para el número de teléfono -->
+                    <input type="text" name="full_name" placeholder="No. Telefono Celular" required>
+                    <!-- Botón de guardar -->
+                    <button type="submit">GUARDAR</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

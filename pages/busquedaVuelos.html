@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>Registro - Acme Air</title> 
+  <link rel="stylesheet" href="/css/styles2.css"> 
+</head>
+<body>
+
+  <!-- Encabezado de la página, contiene el logo -->
+  <div class="header">
+    <img src="/recourses/logo-removebg-preview.webp" alt="Plane Icon"> <!-- Imagen del logo, el atributo alt describe la imagen para accesibilidad -->
+  </div>
+
+  <!-- Contenedor principal de la página -->
+  <div class="container">
+  
+    <!-- Sección de perfil del usuario -->
+    <div class="profile">
+      <img src="https://cdn.icon-icons.com/icons2/3250/PNG/512/person_circle_filled_icon_202012.png" alt="Profile Picture"> <!-- Imagen del perfil del usuario -->
+      <div>
+          <strong>John Doe</strong><br> <!-- Nombre del usuario -->
+          <a href="/pages/iniciarSesion.html" style="color: #007bff; text-decoration: none;">Cerrar Sesi&oacute;n</a> <!-- Enlace para cerrar sesión, con estilo en línea -->
+        </div>
+    </div>
+
+    <!-- Título principal de la página -->
+    <h1>Busqueda de Vuelos</h1>
+
+    <!-- Formulario para buscar vuelos -->
+    <form action="/pages/vuelosdisponibles.html" method="#"> <!-- El formulario redirige a 'vuelosdisponibles.html' al enviarse -->
+        <label class="checkbox-label">
+            <!-- Casilla de verificación para seleccionar solo ida -->
+            <input type="checkbox" name="remember"> Solo ida
+        </label>
+
+      <input type="text" name="full_name" placeholder="Origen" required> 
+      <input type="text" name="id_number" placeholder="Destino" required> 
+      <input type="text" name="email" placeholder="Fecha de salida" required> 
+      <input type="text" name="phone" placeholder="Fecha de regreso" required> 
+      <button type="submit">BUSCAR</button> 
+    </form>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Configuración del documento -->
+    <meta charset="UTF-8"> <!-- Codificación de caracteres utilizada en el documento -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configuración para diseño responsive en dispositivos móviles -->
+    <title>ACME Air</title> <!-- Título de la página que aparece en la pestaña del navegador -->
+    <link rel="stylesheet" href="/css/styles.css"> <!-- Enlace al archivo CSS que contiene los estilos de la página -->
+</head>
+
+<body>
+    
+    <!-- Encabezado con logotipo -->
+    <div class="header">
+        <img src="/recourses/logo-removebg-preview.webp" alt="Plane Icon"> <!-- Imagen del logotipo de la compañía (ícono de avión) -->
+    </div>
+
+    <!-- Contenedor principal -->
+    <div class="container">
+        
+        <!-- Sección de perfil del usuario -->
+        <div class="profile">
+            <img src="https://cdn.icon-icons.com/icons2/3250/PNG/512/person_circle_filled_icon_202012.png" alt="Profile Picture"> <!-- Imagen de perfil del usuario -->
+            <div>
+                <strong>John Doe</strong><br> <!-- Nombre del usuario -->
+                <a href="#" style="color: #007bff; text-decoration: none;">Cerrar Sesión</a> <!-- Enlace para cerrar sesión -->
+            </div>
+        </div>
+
+        <!-- Sección de vuelos disponibles -->
+        <div class="flights">
+            <center>
+                <h3>Vuelos disponibles</h3> <!-- Título de la sección que muestra los vuelos -->
+            </center>
+            <p>Bogotá - Barranquilla<br>Septiembre - 29</p> <!-- Información sobre el origen, destino y la fecha del vuelo -->
+
+            <!-- Tarjeta de vuelo 1 -->
+            <div class="flight-card">
+                <img src="https://cdn-icons-png.flaticon.com/512/6665/6665429.png" alt="Flight"> <!-- Icono representativo del vuelo -->
+                <div class="flight-info">
+                    <p>05:30 - 06:30<br><br>1h 30min</p> <!-- Información de horarios de vuelo y duración -->
+                </div>
+                <div class="flight-price">
+                    <small>VAA025</small> <!-- Código del vuelo -->
+                    <br><br>
+                    COP <a style="font-size: 23px;">150.600</a> <!-- Precio del vuelo en COP (pesos colombianos) -->
+                </div>
+            </div>
+
+            <!-- Tarjeta de vuelo 2 -->
+            <div class="flight-card">
+                <img src="https://cdn-icons-png.flaticon.com/512/6665/6665429.png" alt="Flight">
+                <div class="flight-info">
+                    <p>10:30 - 12:05<br><br>1h 30min</p>
+                </div>
+                <div class="flight-price">
+                    <small>VAA412</small>
+                    <br><br>
+                    COP <a style="font-size: 23px;">260.050</a>
+                </div>
+            </div>
+
+            <!-- Tarjeta de vuelo 3 -->
+            <div class="flight-card">
+                <img src="https://cdn-icons-png.flaticon.com/512/6665/6665429.png" alt="Flight">
+                <div class="flight-info">
+                    <p>14:15 - 15:45<br><br>1h 30min</p>
+                </div>
+                <div class="flight-price">
+                    <small>VAA836</small>
+                    <br><br>
+                    COP <a style="font-size: 23px;">150.600</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Botón para volver -->
+        <a href="/index.html" class="button">VOLVER</a> <!-- Enlace para regresar a la página principal -->
+    </div>
+</body>
+</html>

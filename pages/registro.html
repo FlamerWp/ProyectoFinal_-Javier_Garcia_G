@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <!-- Configuración básica del documento -->
+  <meta charset="UTF-8"> <!-- Codificación de caracteres -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Diseño responsive -->
+  <title>Registro - Acme Air</title> <!-- Título de la página -->
+  <link rel="stylesheet" href="/css/registro.css"> <!-- Enlace a la hoja de estilos -->
+</head>
+<body>
+  
+  <!-- Encabezado con logotipo de la compañía -->
+  <div class="header">
+    <img src="/recourses/logo-removebg-preview.webp" alt="Plane Icon"> <!-- Imagen del logotipo -->
+  </div>  
+
+  <!-- Contenedor principal que agrupa el contenido de la página -->
+  <div class="container">
+    <!-- Título de la página de registro -->
+    <div class="profile">
+        <h1>Registro</h1> <!-- Título principal -->
+    </div>
+
+    <!-- Formulario para el registro de usuario -->
+    <form action="../pages/crearContraseña.html" method="#">
+      <!-- Campo de texto para ingresar el nombre completo -->
+      <input type="text" name="full_name" placeholder="Nombre Completo" required>
+
+      <!-- Campo de texto para ingresar el número de identificación -->
+      <input type="text" name="id_number" placeholder="No. Identificación" required>
+
+      <!-- Campo de texto para ingresar el correo electrónico -->
+      <input type="email" name="email" placeholder="E-mail" required>
+
+      <!-- Campo de texto para ingresar el teléfono -->
+      <input type="tel" name="phone" placeholder="Teléfono" required>
+
+      <!-- Campo de selección para elegir la ciudad -->
+      <select name="city" required>
+        <option value="" disabled selected>Ciudad</option> <!-- Opción por defecto -->
+        <option value="Bogotá">Bogotá</option> <!-- Opción para Bogotá -->
+        <option value="Medellín">Medellín</option> <!-- Opción para Medellín -->
+        <option value="Cali">Cali</option> <!-- Opción para Cali -->
+        <option value="Barranquilla">Barranquilla</option> <!-- Opción para Barranquilla -->
+        <option value="Otra">Otra</option> <!-- Opción para otras ciudades -->
+      </select>
+
+      <!-- Botón para enviar el formulario -->
+      <button type="submit">Guardar</button>
+    </form>
+  </div>
+</div>
+</body>
+</html>

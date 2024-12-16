@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.header {
+    background: linear-gradient(to right, #7f58ff, #44caff);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.header img {
+    max-height: 50%;
+    max-width: 50%;
+    vertical-align: middle;
+}
+
+.container {
+    margin: -3% auto;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    padding: 20px 20px 20px 0px;
+    border-bottom: 1px solid #ddd;
+    margin-right: 5%;
+    margin-left: 5%;
+    font-size: 20px;
+}
+
+.profile img {
+    margin-right: 1%;
+    height: 50px;
+    width: 50px;
+}
+
+.flights {
+    padding: 20px;
+}
+
+.flight-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    margin-bottom: 3%;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #f9f9f9;
+}
+
+.flight-card img {
+    height: 85px;
+}
+
+.flight-info {
+    flex: 1;
+    margin-left: 10px;
+}
+
+.flight-price {
+    font-size: 11px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.button {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    background: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 0px 20px 20px 20px;
+    font-weight: bold;
+}
+
+.button:hover {
+    background: #0056b3;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px;
+    width: 100%;
+}
+
+input, select {
+    padding: 15px;
+    border: 1px solid #ccc;
+    margin-bottom: 4%;
+    font-size: 20px;
+    height: 28px;
+    border-radius: 3px;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

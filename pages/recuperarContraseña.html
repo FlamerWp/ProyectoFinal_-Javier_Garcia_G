@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <!-- Configuración básica del documento -->
+  <meta charset="UTF-8"> <!-- Codificación de caracteres -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Diseño responsive -->
+  <title>Recuperar contraseña - Acme Air</title> <!-- Título de la página -->
+  <link rel="stylesheet" href="/css/registro.css"> <!-- Enlace a la hoja de estilos -->
+</head>
+<body>
+    
+    <!-- Encabezado con logotipo de la compañía -->
+    <div class="header">
+      <img src="/recourses/logo-removebg-preview.webp" alt="Plane Icon"> <!-- Imagen del logotipo -->
+    </div>  
+
+    <!-- Contenedor principal que agrupa el contenido de la página -->
+    <div class="container">
+      <!-- Título de la página para recuperación de contraseña -->
+      <div class="profile">
+        <h1 >Recuperar Contraseña</h1> <!-- Título principal -->
+      </div>
+
+      <!-- Formulario para ingresar el email y recuperar la contraseña -->
+      <form action="/pages/crearContraseña.html" method="#">
+        <input type="text" name="full_name" placeholder="Email" required> <!-- Campo de texto para ingresar el email -->
+        
+        <!-- Texto explicativo sobre la recuperación de contraseña -->
+        <p style="margin-left: 5%; margin-right: 5%; text-align: justify; ">
+          Si el e-mail se encuentra registrado se enviará un link para continuar con la recuperación de su contraseña
+        </p>
+        
+        <!-- Botón para enviar el formulario -->
+        <button type="submit" style="margin-top: 0%;">Enviar</button>
+      </form>
+
+    </div>
+</body>
+</html>

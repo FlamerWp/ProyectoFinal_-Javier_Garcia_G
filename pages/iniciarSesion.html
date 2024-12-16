@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <!-- Configuración básica del documento -->
+  <meta charset="UTF-8"> <!-- Codificación de caracteres -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Diseño adaptable a dispositivos -->
+  <title>Login - Acme Air</title> <!-- Título de la página -->
+  <link rel="stylesheet" href="/css/login.css"> <!-- Enlace a la hoja de estilos -->
+</head>
+<body>
+  <!-- Contenedor principal del login -->
+  <div class="login-container">
+    <!-- Logotipo de la compañía -->
+    <div class="logo">
+      <img src="/recourses/logo-removebg-preview.webp" alt="ACME Air Logo"> <!-- Imagen del logo -->
+    </div>
+    <br><br>
+
+    <!-- Título de la sección -->
+    <h1>Iniciar Sesión</h1>
+    <br><br>
+
+    <!-- Formulario de inicio de sesión -->
+    <form action="/index.html" method="#">
+      <!-- Campo de entrada para el email -->
+      <input type="email" name="email" placeholder="Email" required>
+      <!-- Campo de entrada para la contraseña -->
+      <input type="password" name="password" placeholder="Contraseña" required>
+
+      <!-- Opciones adicionales -->
+      <div class="options">
+        <label>
+          <input type="checkbox" name="remember"> Recordar mis datos <!-- Checkbox de recordar datos -->
+        </label>
+      </div>
+
+      <!-- Botón de enviar -->
+      <button type="submit">INGRESAR</button> <!-- Botón para enviar el formulario -->
+    </form>
+
+    <!-- Enlaces adicionales -->
+    <div class="links">
+      <a href="registro.html">Crear cuenta</a> <!-- Enlace para crear una cuenta nueva -->
+      <a href="/pages/recuperarContraseña.html">¿Has olvidado tu contraseña?</a> <!-- Enlace para recuperar la contraseña -->
+    </div>
+  </div>
+</body>
+</html>

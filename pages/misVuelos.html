@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Configuración básica del documento -->
+    <meta charset="UTF-8"> <!-- Codificación de caracteres -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Diseño responsive -->
+    <title>ACME Air</title> <!-- Título de la página -->
+    <link rel="stylesheet" href="/css/styles.css"> <!-- Enlace a la hoja de estilos -->
+</head>
+<body>
+    <!-- Encabezado con logotipo de la compañía -->
+    <div class="header">
+        <img src="/recourses/logo-removebg-preview.webp" alt="Plane Icon"> <!-- Imagen del logotipo -->
+    </div>
+
+    <!-- Contenedor principal que agrupa el contenido de la página -->
+    <div class="container">
+        <!-- Información del perfil de usuario -->
+        <div class="profile">
+            <img src="https://cdn.icon-icons.com/icons2/3250/PNG/512/person_circle_filled_icon_202012.png" alt="Profile Picture"> <!-- Imagen de perfil del usuario -->
+            <div>
+                <strong>John Doe</strong><br> <!-- Nombre del usuario -->
+                <a href="/pages/iniciarSesion.html" style="color: #007bff; text-decoration: none;">Cerrar Sesi&oacute;n</a> <!-- Enlace para cerrar sesión -->
+            </div>
+        </div>
+
+        <!-- Sección de vuelos del usuario -->
+        <div class="flights">
+            <!-- Título de la sección de vuelos -->
+            <center>
+                <h3 style="font-size: 30px; margin:2%">Mis Vuelos</h3> <!-- Encabezado con el texto "Mis Vuelos" -->
+            </center>
+
+            <!-- Tarjeta de un vuelo -->
+            <div class="flight-card">
+                <img src="https://cdn-icons-png.flaticon.com/512/6665/6665429.png" alt="Flight"> <!-- Imagen de vuelo -->
+                <div class="flight-info">
+                    <p>05:30 - 06:30<br><br>1h 30min<br><br>Sep 29</p> <!-- Información del vuelo: hora, duración y fecha -->
+                </div>
+                <div class="flight-price">
+                    <h3>VAA025</h3> <!-- Código del vuelo -->
+                    <small style="font-size: 23px;">A TIEMPO</small> <!-- Estado del vuelo -->
+                    <h3>Bogota - Barranquilla</h3> <!-- Ruta del vuelo -->
+                </div>
+            </div>
+
+            <!-- Segunda tarjeta de vuelo -->
+            <div class="flight-card">
+                <img src="https://cdn-icons-png.flaticon.com/512/6665/6665429.png" alt="Flight"> <!-- Imagen de vuelo -->
+                <div class="flight-info">
+                    <p>10:30 - 12:00<br><br>1h 30min<br><br>Jul 05</p> <!-- Información del vuelo: hora, duración y fecha -->
+                </div>
+                <div class="flight-price">
+                    <h3>VAA185</h3> <!-- Código del vuelo -->
+                    <small style="font-size: 23px;">ATERRIZO</small> <!-- Estado del vuelo -->
+                    <h3>Bogota - Barranquilla</h3> <!-- Ruta del vuelo -->
+                </div>
+            </div>
+
+            <!-- Tercera tarjeta de vuelo -->
+            <div class="flight-card">
+                <img src="https://cdn-icons-png.flaticon.com/512/6665/6665429.png" alt="Flight"> <!-- Imagen de vuelo -->
+                <div class="flight-info">
+                    <p>05:30 - 06:30<br><br>1h 30min<br><br>Feb 04</p> <!-- Información del vuelo: hora, duración y fecha -->
+                </div>
+                <div class="flight-price">
+                    <h3>VAA800</h3> <!-- Código del vuelo -->
+                    <small style="font-size: 23px;">ATERRIZO</small> <!-- Estado del vuelo -->
+                    <h3>Bogota - Barranquilla</h3> <!-- Ruta del vuelo -->
+                </div>
+            </div>
+
+            <!-- Enlace para volver a la página principal -->
+            <a href="/index.html" class="button">VOLVER</a> <!-- Botón que redirige al usuario a la página de inicio -->
+        </div>
+    </div>
+</body>
+</html>
